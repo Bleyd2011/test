@@ -9,6 +9,8 @@ h1 {
     color: red; /*Параметры класса*/
 }
 .block1 {
+    background-position: center;
+    background-size: cover;
     width: 30%; /*ширина блока*/
     margin: 0 auto; /*блок по центру, это внешние отступы*/
     background-image: url(https://www.cutlerywholesaler.com/assets/images/RC014.jpg);
@@ -32,9 +34,7 @@ a:hover {
     color: pink;
 }
 .img {
-    background-size: cover;
-    transform: scale(1);
-    transition: 4s all;
+    transition: 5s;
 }
 img:hover {
     transform: scale(1.5);
