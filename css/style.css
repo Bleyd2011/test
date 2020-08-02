@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    color: yellow; /*цвет текста*/
+    font-family: times new roman; /*шрифт текста*/
+}
+.red { /*Это просто название класса*/
+    color: red; /*Параметры класса*/
+}
+.block1 {
+    width: 30%; /*ширина блока*/
+    margin: 0 auto; /*блок по центру, это внешние отступы*/
+    background-image: url(https://www.cutlerywholesaler.com/assets/images/RC014.jpg);
+    padding: 15px; /*внутренний отступ для всех. Нужен с определённо стороны - указывать "-сторона"*/
+    border: 15px solid #e51ef7; /*ширина краёв, стиль, цвет*/
+    border-radius: 90px;
+}
+#block2 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 20px solid #e51ef7;
+    border-radius: 30px;
+}
+b u { /*селектор иерархии*/
+    color: blue;
+}
+a:hover {
+    text-decoration: none;
+    color: pink;
+}
+.img {
+    transform: scale(1);
+    transition: 4s all;
+}
+img:hover {
+    transform: scale(1.5);
+}
