@@ -17,6 +17,7 @@ h1 {
     border-radius: 90px;
 }
 #block2 {
+    min-width: 400px;
     width: 50%;
     margin: 0 auto;
     padding: 15px;
@@ -31,9 +32,13 @@ a:hover {
     color: pink;
 }
 .img {
+    background-size: cover;
     transform: scale(1);
     transition: 4s all;
 }
 img:hover {
     transform: scale(1.5);
+}
+img {
+max-width: 100%;
 }
