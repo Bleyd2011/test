@@ -8,7 +8,7 @@ ul {
 a {
     text-decoration: none;
     font-family: Georgia;
-    transition: .5s leaner;
+    transition: 0.5s leaner;
 }
 .main-menu {
     display: inline-block;
@@ -26,7 +26,7 @@ a {
     display: block;
     padding: 1em;
     border-right: 1px solid #ADC0CE;
-    background: rgba (173, 192, 206, .3);
+    background: rgba(173, 192, 206, 0.3);
     color: #29838C;
 }
 .two a:hover {
