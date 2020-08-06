@@ -18,12 +18,20 @@ h1 {
     border: 15px solid #e51ef7; /*ширина краёв, стиль, цвет*/
     border-radius: 90px;
 }
-#block2 {
+.block2 {
     min-width: 400px;
     width: 50%;
     margin: 0 auto;
     padding: 15px;
     border: 20px solid #e51ef7;
+    border-radius: 30px;
+}
+.block3 {
+    min-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid #e51ef7;
     border-radius: 30px;
 }
 b u { /*селектор иерархии*/
@@ -36,9 +44,13 @@ a:hover {
 .img {
     transition: 5s;
 }
-img:hover {
+.img:hover {
     transform: scale(1.5);
 }
 img {
 max-width: 100%;
+}
+.left {
+    float: left;
+    padding: 5px 15px 5px 15px;
 }
