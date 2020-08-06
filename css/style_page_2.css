@@ -11,9 +11,8 @@ a {
     transition: .5s leaner;
 }
 .main-menu {
-    display: block;
-    width: 400px;
-    margin: 0 auto 30px;
+    display: inline-block;
+    margin: 200px auto 30px;
 }
 .two ul {
     background: #D4E7EE;
